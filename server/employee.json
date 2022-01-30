@@ -1,0 +1,44 @@
+{
+  "employeeData": [
+    {
+      "id": 1,
+      "ename": "Rupesh",
+      "age": 27,
+      "city": "Pune",
+      "gender": "Male",
+      "salary": 45678
+    },
+    {
+      "id": 3,
+      "ename": "Prachi",
+      "age": 17,
+      "city": "Nagpur",
+      "gender": "Female",
+      "salary": 30000
+    },
+    {
+      "id": 5,
+      "ename": "Sunil",
+      "age": 30,
+      "city": "Pune",
+      "gender": "Male",
+      "salary": "30000"
+    },
+    {
+      "ename": "Satish",
+      "salary": "30000",
+      "age": "29",
+      "city": "Pune",
+      "gender": "Male",
+      "id": 6
+    },
+    {
+      "ename": "rupesh",
+      "salary": "10000",
+      "age": "29",
+      "city": "Pune",
+      "gender": "Male",
+      "id": 8
+    }
+  ]
+}
