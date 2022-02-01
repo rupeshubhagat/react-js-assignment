@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import AddEmp from "./components/AddEmp";
+import Cart from "./components/Cart";
 import EditEmp from "./components/EditEmp";
 import Home from "./components/Home";
 import NotFound from "./components/NotFound";
@@ -17,6 +18,7 @@ function App() {
           <Route path="/add-emp" element={<AddEmp />} />
           <Route path="/edit-emp/:id" element={<EditEmp />} />
           <Route path="/product" element={<Product />} />
+          <Route path="/cart" element={<Cart />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>

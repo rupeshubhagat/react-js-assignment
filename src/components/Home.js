@@ -47,7 +47,7 @@ function Home(){
             <Col sm={12} md={4} lg={3} xl={4} >
               <Card key={emp.id} className="mb-4">
                 <Card.Body>
-                  <Card.Title>Name: {emp.ename}</Card.Title>
+                  <Card.Title>Name: {emp.ename.toUpperCase()}</Card.Title>
                   <Card.Text> Age: {emp.age}</Card.Text>
                   <Card.Text> City: {emp.city}</Card.Text>
                   <Button

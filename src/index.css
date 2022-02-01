@@ -30,6 +30,7 @@ code {
 }
 
 .card{
+  overflow: hidden;
   border-radius: 15px;
   background-image: linear-gradient(to right, rgb(214, 94, 94) , rgb(96, 88, 214));
 }
@@ -47,3 +48,16 @@ code {
 .notdound img{
    
 }
+.card-img-wrap{
+  height: 200px;
+}
+
+.card-img-wrap img{
+ width: 100%;
+ height: 100%;
+ object-fit:contain;
+ transition: transform .2s;
+}
+.card-img-wrap img:hover{
+  transform: scale(1.2);
+ }

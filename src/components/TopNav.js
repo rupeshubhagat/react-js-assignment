@@ -15,6 +15,7 @@ import { Link } from "react-router-dom";
                 <Link to="/add-emp">Add Employee</Link>
                 <Link to="/edit-emp">Edit Employee</Link>
                 <Link to="/product">Product</Link>
+                <Link to="/cart" className="text-warning">Cart(0)</Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

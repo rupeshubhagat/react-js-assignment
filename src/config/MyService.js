@@ -1,5 +1,5 @@
 import axios from "axios";
-import { EMPLOYEE_URL } from "./Url";
+import { EMPLOYEE_URL, PRODUCT_URL } from "./Url";
 
 // get all products
 export function getEmployee(){
@@ -24,4 +24,14 @@ export function addEmp(data){
 // update
 export function updateEmpData(id,data){
     return axios.put(`${EMPLOYEE_URL}${id}`,data);
+}
+
+// *********************** For Product ***********
+// get all products
+export function getProducts(){
+    return axios.get(`${PRODUCT_URL}?_page=1&_limit=6`);
+}
+
+export function fetchProductByPageId(currentPage){
+    return axios.get(`${PRODUCT_URL}?_page=${currentPage}&_limit=6`);
 }

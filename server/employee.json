@@ -25,20 +25,154 @@
       "salary": "30000"
     },
     {
-      "ename": "Satish",
-      "salary": "30000",
-      "age": "29",
-      "city": "Pune",
+      "ename": "Rajesh",
+      "salary": "220000",
+      "age": "23",
+      "city": "Aurangabad",
       "gender": "Male",
       "id": 6
+    }
+  ],
+  "productData": [
+    {
+      "id": 1,
+      "pname": "Samsung LED",
+      "quantity": 1,
+      "price": 8000,
+      "image": "https://m.media-amazon.com/images/I/71vZypjNkPS._SL1500_.jpg"
     },
     {
-      "ename": "rupesh",
-      "salary": "10000",
-      "age": "29",
-      "city": "Pune",
-      "gender": "Male",
-      "id": 8
+      "id": 2,
+      "pname": "Panasonic LED",
+      "quantity": 1,
+      "price": 22000,
+      "image": "https://m.media-amazon.com/images/I/71vZypjNkPS._SL1500_.jpg"
+    },
+    {
+      "id": 3,
+      "pname": "Lg Tv",
+      "quantity": 1,
+      "price": 10000,
+      "image": "https://m.media-amazon.com/images/I/71vZypjNkPS._SL1500_.jpg"
+    },
+    {
+      "id": 4,
+      "pname": "Bajaj Fan",
+      "quantity": 2,
+      "price": 8000,
+      "image": "https://rukminim1.flixcart.com/image/416/416/fan/t/c/e/bajaj-bahar-original-imaegahzbmfe8sbb.jpeg?q=70"
+    },
+    {
+      "id": 5,
+      "pname": "Orient Fan",
+      "quantity": 2,
+      "price": 8000,
+      "image": "https://rukminim1.flixcart.com/image/416/416/fan/t/c/e/bajaj-bahar-original-imaegahzbmfe8sbb.jpeg?q=70"
+    },
+    {
+      "id": 6,
+      "pname": "LG Fan",
+      "quantity": 2,
+      "price": 8000,
+      "image": "https://rukminim1.flixcart.com/image/416/416/fan/t/c/e/bajaj-bahar-original-imaegahzbmfe8sbb.jpeg?q=70"
+    },
+    {
+      "id": 7,
+      "pname": "Samsung Fan",
+      "quantity": 2,
+      "price": 8000,
+      "image": "https://rukminim1.flixcart.com/image/416/416/fan/t/c/e/bajaj-bahar-original-imaegahzbmfe8sbb.jpeg?q=70"
+    },
+    {
+      "id": 8,
+      "pname": "Bajaj Freez",
+      "quantity": 1,
+      "price": 20000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHSUPSv5yZnZ9bnmVJ3ag7SwWAFbtgLDDAm2BWxVQMZwKZEGiNG7DxtMaZEvjB4h4fS74&usqp=CAU"
+    },
+    {
+      "id": 9,
+      "pname": "LG Freez",
+      "quantity": 1,
+      "price": 12000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHSUPSv5yZnZ9bnmVJ3ag7SwWAFbtgLDDAm2BWxVQMZwKZEGiNG7DxtMaZEvjB4h4fS74&usqp=CAU"
+    },
+    {
+      "id": 10,
+      "pname": "Samsung Freez",
+      "quantity": 1,
+      "price": 22000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHSUPSv5yZnZ9bnmVJ3ag7SwWAFbtgLDDAm2BWxVQMZwKZEGiNG7DxtMaZEvjB4h4fS74&usqp=CAU"
+    },
+    {
+      "id": 11,
+      "pname": "Pansonic LED",
+      "quantity": 1,
+      "price": 8000,
+      "image": "https://m.media-amazon.com/images/I/71vZypjNkPS._SL1500_.jpg"
+    },
+    {
+      "id": 12,
+      "pname": "Panasonic LED",
+      "quantity": 1,
+      "price": 12000,
+      "image": "https://m.media-amazon.com/images/I/71vZypjNkPS._SL1500_.jpg"
+    },
+    {
+      "id": 13,
+      "pname": "Lg Tv",
+      "quantity": 1,
+      "price": 10000,
+      "image": "https://m.media-amazon.com/images/I/71vZypjNkPS._SL1500_.jpg"
+    },
+    {
+      "id": 14,
+      "pname": "Bajaj Fan",
+      "quantity": 2,
+      "price": 8000,
+      "image": "https://rukminim1.flixcart.com/image/416/416/fan/t/c/e/bajaj-bahar-original-imaegahzbmfe8sbb.jpeg?q=70"
+    },
+    {
+      "id": 15,
+      "pname": "Orient Fan",
+      "quantity": 2,
+      "price": 8000,
+      "image": "https://rukminim1.flixcart.com/image/416/416/fan/t/c/e/bajaj-bahar-original-imaegahzbmfe8sbb.jpeg?q=70"
+    },
+    {
+      "id": 16,
+      "pname": "LG Fan",
+      "quantity": 2,
+      "price": 8000,
+      "image": "https://rukminim1.flixcart.com/image/416/416/fan/t/c/e/bajaj-bahar-original-imaegahzbmfe8sbb.jpeg?q=70"
+    },
+    {
+      "id": 17,
+      "pname": "Samsung Fan",
+      "quantity": 2,
+      "price": 8000,
+      "image": "https://rukminim1.flixcart.com/image/416/416/fan/t/c/e/bajaj-bahar-original-imaegahzbmfe8sbb.jpeg?q=70"
+    },
+    {
+      "id": 18,
+      "pname": "Bajaj Freez",
+      "quantity": 1,
+      "price": 20000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHSUPSv5yZnZ9bnmVJ3ag7SwWAFbtgLDDAm2BWxVQMZwKZEGiNG7DxtMaZEvjB4h4fS74&usqp=CAU"
+    },
+    {
+      "id": 19,
+      "pname": "LG Freez",
+      "quantity": 1,
+      "price": 12000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHSUPSv5yZnZ9bnmVJ3ag7SwWAFbtgLDDAm2BWxVQMZwKZEGiNG7DxtMaZEvjB4h4fS74&usqp=CAU"
+    },
+    {
+      "id": 20,
+      "pname": "Samsung Freez",
+      "quantity": 1,
+      "price": 22000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHSUPSv5yZnZ9bnmVJ3ag7SwWAFbtgLDDAm2BWxVQMZwKZEGiNG7DxtMaZEvjB4h4fS74&usqp=CAU"
     }
   ]
 }

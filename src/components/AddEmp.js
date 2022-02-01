@@ -22,33 +22,29 @@ function AddEmp() {
     setEmpData({ ...empData, [name]: value });
   };
 
+  const validateErrors = () => {
+    if (
+      empData.ename == "" ||
+      empData.age == "" ||
+      empData.salary == "" ||
+      empData.city == ""
+    ) {
+      setErrMsg("Please Fill the blank Field");
+      return false;
+    }
+
+    // Name pattern error
+    let nameRegx = /^[a-zA-Z ]+$/;
+    if (!nameRegx.test(empData.ename) || !nameRegx.test(empData.city)) {
+      setErrMsg("Only Alphabet allowed in Name & city field");
+      return false;
+    }
+    return true;
+  };
+
   const postEmp = (event) => {
     event.preventDefault();
-    let nameRegx = /^[a-zA-Z ]+$/;
-
-    if (empData.ename !== "" &&  empData.age != "" &&  empData.city != "" && empData.salary != "") {
-      
-      if (nameRegx.test(empData.ename) ) {
-        setValidState(true);
-      } else {
-        setErrMsg("Only Alphabet allowed in Name field");
-        // setValidState(false);
-      }
-
-      if (nameRegx.test(empData.city) ) {
-        setValidState(true);
-      } else {
-        setErrMsg("Only Alphabet allowed in City field");
-        // setValidState(false)
-      } 
-    
-    } else {
-      setErrMsg("Please Fill the blank Field");
-      setValidState(false)
-    }
-    console.log("form data :" + empData.ename + empData.gender);
-
-    if (validstate) {
+    if (validateErrors()) {
       addEmp(empData)
         .then((res) => {
           if (res) {
@@ -65,12 +61,11 @@ function AddEmp() {
     <>
       <Container className="mt-2">
         <h2 class="text-center">Add new Employee </h2>
-        
+
         <Row className="justify-content-center">
           <Form className="col-md-4" onSubmit={postEmp}>
-
-          {errMsg != '' && <p className="err-msg">{errMsg}</p> }
-              <Form.Label>Emp Name</Form.Label>
+            {errMsg != "" && <p className="err-msg">{errMsg}</p>}
+            <Form.Label>Emp Name</Form.Label>
             <Form.Group className="mb-3" controlId="product-name">
               <Form.Control
                 name="ename"
